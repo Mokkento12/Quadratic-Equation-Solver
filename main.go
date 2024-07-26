@@ -39,4 +39,6 @@ func main() {
 	} else if D < 0 {
 		fmt.Println("ваше уравнение не имеет корней\nD < 0\nD = " + fmt.Sprint(D))
 	}
+
+	fmt.Scan(&a)
 }
